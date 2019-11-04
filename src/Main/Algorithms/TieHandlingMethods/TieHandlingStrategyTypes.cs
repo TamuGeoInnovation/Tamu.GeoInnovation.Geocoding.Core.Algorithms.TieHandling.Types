@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace USC.GISResearchLab.Geocoding.Core.Algorithms.TieHandlingMethods
+﻿namespace USC.GISResearchLab.Geocoding.Core.Algorithms.TieHandlingMethods
 {
     public enum TieHandlingStrategyType { Unknown, RevertToHierarchy, FlipACoin, DynamicFeatureComposition, RegionalCharacteristics, ReturnAll };
 
-    
+
 }
